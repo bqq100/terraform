@@ -44,7 +44,7 @@ variable "instance_shape_config_memory_in_gbs" {
 
 data "oci_identity_availability_domain" "ad" {
   compartment_id = var.tenancy_ocid
-  ad_number      = 1
+  ad_number      = 3
 }
 
 /* Network */
